@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="/images/favicon-32x32.png">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="main-container">
+            <div>
+                <img src="/images/illustration-thank-you.svg" alt="" class="img">
+
+            </div>
+            <div>
+                <div class="ratings">you selected out <div id="displayValue"></div> of 5</div>
+            </div>
+            <p class="tks">Thank You!</p>
+            <p class="contents">  We appreciate you taking the time to give a rating. If you ever need more support, 
+                don’t hesitate to get in touch!</p>
+        </div>
+    </div>
+    <script>
+        // JavaScript code to retrieve and display the passed value
+        var urlParams = new URLSearchParams(window.location.search);
+        var value = urlParams.get("value");
+        document.getElementById("displayValue").innerHTML = value;
+        
+    </script>
+</body>
+</html>

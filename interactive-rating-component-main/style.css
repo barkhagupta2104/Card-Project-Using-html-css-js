@@ -1,0 +1,277 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:  hsl(216, 12%, 8%);
+}
+.wrapper{
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+.star-icon{
+    align-self: self-start;
+    margin-left: 1.4rem;
+    margin-top: 2rem;
+    width: 9%;
+    height:11%;
+    border-radius: 50% ;
+     margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #bbb;
+ 
+}
+#options{
+    width: 90%;
+    height:24%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+ 
+}
+#options div{
+    width: 11%;
+    height:50%;
+    background-color: #bbb;
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+  padding-top: 1.2rem;
+
+ 
+}
+#options div:hover{
+    background-color: #ff5e00;
+   cursor: pointer;
+}
+.main-container{
+    background-color:hsl(213, 19%, 18%)  ;
+    width: 25%;
+    height: 48%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+     border-radius: 6% 6%;
+
+    margin-top: 10rem;
+  
+}
+.main-container p{
+    width: 90%;
+    color: white;
+    margin-bottom: 1rem;
+   
+}
+.main-container .heading{
+font-size: 1.6rem;
+
+}
+.para{
+    width: 90%;
+    color: white;
+}
+button{
+    width: 90%;
+    height: 12%;
+    border-radius: 34px;
+    background-color: #ff5e00;
+    color: white;
+    font-size: 1rem;
+}
+
+
+@media screen and (max-width:1699px) {
+    .main-container{
+      width: 23%;
+     
+    }
+    #options div{
+        width: 15%;
+        height:67% ;
+    }
+      
+  }
+  @media screen and (max-width:1599px) {
+    .main-container{
+      width: 25%;
+     
+    }
+    #options div{
+        width: 15%;
+        height:67% ;
+    }
+      
+      
+  }
+  @media screen and (max-width:1399px) {
+    .main-container{
+      width: 30%;
+    }
+    #options div{
+        width: 15%;
+        height:69% ;
+    }
+      
+      
+  }
+  @media screen and (max-width:1299px) {
+    .main-container{
+      width: 40%;
+    }
+    #options div{
+        width: 14%;
+        height:67% ;
+    }
+      
+      
+  }
+  @media screen and (max-width:1100px) {
+    .main-container{
+      width: 47%;
+    }
+      #options div{
+        width: 15%;
+        height:67% ;
+    }
+
+      
+  }
+  @media screen and (max-width:999px) {
+    .main-container{
+      width: 48%;
+    }
+    #options div{
+        width: 16%;
+        height:59% ;
+    }
+  
+      
+  }
+  @media screen and (max-width:899px) {
+    .main-container{
+      width: 51%;
+    } .options div{
+        width: 14%;
+        height:60% ;
+    }
+   
+      
+  }
+  @media screen and (max-width:739px) {
+    .main-container{
+      width: 60%;
+    }
+    #options div{
+        width: 17%;
+        height:63% ;
+    }
+    .star-icon{
+        width:10% ;
+  
+    }
+  }
+  @media screen and (max-width:669px) {
+    .main-container{
+      width: 70%;
+    }
+    #options div{
+        width: 17%;
+        height:63% ;
+    }
+  
+      
+  }
+  @media screen and (max-width:519px) {
+    .main-container{
+      width: 82%;
+    }
+    #options div{
+        width: 17%;
+        height:67% ;
+    }
+    .star-icon{
+        width:11% ;
+  
+    }
+      
+  }
+  @media screen and (max-width:459px) {
+    .main-container{
+      width: 84%;
+    }
+    #options div{
+        width: 19%;
+        height:67% ;
+    }
+    .star-icon{
+        width:12% ;
+  
+    }
+      
+  }
+  @media screen and (max-width:400px) {
+    .main-container{
+      width: 85%;
+    }
+    #options div{
+        width: 19%;
+        height:67% ;
+    }
+    .star-icon{
+        width:13% ;
+  
+    }
+      
+  }
+  @media screen and (max-width:349px) {
+    .main-container{
+      width: 86%;
+    }
+    #options div{
+        width: 20%;
+        height:67% ;
+    }
+      
+      
+  }
+  button a{
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+
+  }
+  .img{
+    margin-top: 1.8rem;
+    margin-bottom: 1rem;
+  }
+  .tks{
+    margin-top: 1.8rem;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  .contents{
+    padding: .6rem .4rem;
+    text-align: center;
+
+  }
+  .ratings{
+   width: 120%;
+   height: 130%;
+   margin-right: 1rem;
+    border-radius: 23px;
+    text-align: center;
+    background-color: #bbbbbb4b;
+    color: #ff5e00;
+  }
+  .ratings div{
+    display: inline;
+  }
